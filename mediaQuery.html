@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            max-width: 1200px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+        .food{
+            border: 3px solid lightgray;
+            margin: 10px;
+            border-radius: 10px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width: 760px) {
+            .container{
+                flex-direction: column;
+            }
+            .container .food{
+                background-color: rosybrown ;
+            }
+        }
+        @media ( min-width: 800px){
+            .container .food{
+                background-color: skyblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <p></p>
+            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos consequatur molestiae corporis ad inventore dolores veritatis enim, dolorem nihil, blanditiis at non labore ut repellendus dicta doloremque vel fugit numquam.</div>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <p></p>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor molestiae atque explicabo. Repudiandae quas quos facere assumenda laudantium, iste aperiam recusandae laborum voluptatum non eveniet eius asperiores, soluta minima optio.</div>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <p></p>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aspernatur dicta omnis alias suscipit assumenda cupiditate nostrum tempora facere temporibus debitis animi dolorem aut, vel, magni quaerat, atque obcaecati reprehenderit!</div>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <p></p>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vitae dicta, quibusdam esse aperiam totam sequi id ex excepturi! Ad quisquam cupiditate alias asperiores molestias odit culpa eligendi ratione distinctio?</div>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <p></p>
+            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, voluptatibus tempore reiciendis qui aliquam quaerat, amet necessitatibus, modi doloremque asperiores ipsa et iste consequatur maxime explicabo perferendis? Porro, fugit consectetur?</div>
+        </div>
+        <div class="food">
+            <img src="images/burger.jpg" alt="">
+            <p></p>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ratione perferendis, consectetur harum labore doloribus iure molestias natus neque cupiditate dolore perspiciatis, nostrum, ipsa reprehenderit odio necessitatibus eum quam omnis?</div>
+        </div>
+    </div>
+</body>
+</html>
